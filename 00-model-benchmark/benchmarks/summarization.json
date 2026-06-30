@@ -1,0 +1,14 @@
+[
+  {
+    "category": "summarization",
+    "name": "bullet_summary",
+    "prompt": "Artificial Intelligence enables machines to perform tasks requiring human intelligence including reasoning, learning and planning. Summarize in exactly three bullet points.",
+    "expected": []
+  },
+  {
+    "category": "summarization",
+    "name": "one_sentence",
+    "prompt": "Large Language Models are neural networks trained on enormous text corpora. Summarize in one sentence.",
+    "expected": []
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "category": "math",
+    "name": "average_speed",
+    "prompt": "A train travels 120 km at 60 km/h and then another 120 km at 120 km/h. What is the average speed? Return only the answer.",
+    "expected": ["80"]
+  },
+  {
+    "category": "math",
+    "name": "probability",
+    "prompt": "A bag contains 5 red balls and 3 blue balls. Two are drawn without replacement. What is the probability both are red? Return only the fraction.",
+    "expected": ["5/14"]
+  }
+]

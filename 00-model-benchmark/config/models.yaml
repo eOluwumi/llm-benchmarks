@@ -1,0 +1,33 @@
+models:
+
+  - name: phi4-mini
+    provider: ollama
+    family: phi
+    parameters: 3.8B
+    quantization: unknown
+    context: unknown
+    disk_size_gb: 2.5
+
+  - name: qwen2.5:7b-instruct
+    provider: ollama
+    family: qwen2.5
+    parameters: 7B
+    quantization: unknown
+    context: unknown
+    disk_size_gb: 4.7
+
+  - name: qwen3:8b
+    provider: ollama
+    family: qwen3
+    parameters: 8B
+    quantization: unknown
+    context: unknown
+    disk_size_gb: 5.2
+
+  - name: deepseek-r1:8b
+    provider: ollama
+    family: deepseek-r1
+    parameters: 8B
+    quantization: unknown
+    context: unknown
+    disk_size_gb: 5.2

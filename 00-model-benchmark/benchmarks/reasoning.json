@@ -1,0 +1,14 @@
+[
+  {
+    "category": "reasoning",
+    "name": "river_crossing",
+    "prompt": "A farmer must transport a fox, a chicken and grain across a river. Give the correct sequence of crossings.",
+    "expected": []
+  },
+  {
+    "category": "reasoning",
+    "name": "calendar_logic",
+    "prompt": "If today is Wednesday, what day will it be 100 days from now? Return only the weekday.",
+    "expected": ["Friday"]
+  }
+]

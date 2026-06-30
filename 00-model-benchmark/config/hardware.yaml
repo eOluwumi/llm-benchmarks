@@ -1,0 +1,17 @@
+hardware:
+
+  provider: Azure
+
+  backend: CPU
+
+  cpu:
+
+    model: AMD EPYC 7763
+
+    cores: 4
+
+    threads: 4
+
+  ram_gb: 16
+
+  gpu: null

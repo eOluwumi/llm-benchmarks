@@ -1,0 +1,14 @@
+[
+  {
+    "category": "extraction",
+    "name": "invoice_fields",
+    "prompt": "Invoice #12345 dated 15 June 2026 for John Smith totaling $245.67. Return JSON with invoice_number, customer, total.",
+    "expected": ["12345","John Smith","245.67"]
+  },
+  {
+    "category": "extraction",
+    "name": "person_location",
+    "prompt": "Alice travelled from Lagos to Nairobi on 12 July 2026. Return JSON with person, origin and destination.",
+    "expected": ["Alice","Lagos","Nairobi"]
+  }
+]

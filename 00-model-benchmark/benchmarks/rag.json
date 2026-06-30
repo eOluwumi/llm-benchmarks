@@ -1,0 +1,14 @@
+[
+  {
+    "category": "rag",
+    "name": "context_only",
+    "prompt": "Context: Paris is the capital of France.\nQuestion: What is the capital of France?\nAnswer only using the context.",
+    "expected": ["Paris"]
+  },
+  {
+    "category": "rag",
+    "name": "unknown_answer",
+    "prompt": "Context: Azure OpenAI is hosted on Azure.\nQuestion: Who invented Python?\nIf not in context reply 'Not enough information.'",
+    "expected": ["Not enough"]
+  }
+]

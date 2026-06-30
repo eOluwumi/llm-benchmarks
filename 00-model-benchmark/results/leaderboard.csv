@@ -1,0 +1,5 @@
+model,benchmarks,avg_latency,avg_ttft,avg_tps,avg_prompt_tokens,avg_output_tokens
+phi4-mini,10,10.47,1.69,12.55,28.8,88.5
+qwen2.5:7b-instruct,10,13.85,3.99,7.88,57.0,43.2
+qwen3:8b,10,47.16,4.39,5.66,38.0,222.5
+deepseek-r1:8b,10,48.45,3.58,5.8,30.0,240.5

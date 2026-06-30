@@ -1,0 +1,29 @@
+benchmark:
+
+  temperature: 0
+
+  num_predict: 100
+
+  stream: false
+
+metrics:
+
+  - latency
+
+  - ttft
+
+  - tokens_per_second
+
+  - throughput
+
+  - prompt_tokens
+
+  - completion_tokens
+
+output:
+
+  save_csv: true
+
+  save_markdown: true
+
+  save_leaderboard: true
